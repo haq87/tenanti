@@ -15,6 +15,11 @@
             "name": "Mior Muhammad Zaki",
             "email": "crynobone@gmail.com",
             "homepage": "https://github.com/crynobone"
+        },
+        {
+            "name": "Mohd Dhiyaulhaq",
+            "email": "dhiyaulhaq87@gmail.com",
+            "homepage": "https://github.com/haq87"
         }
     ],
     "autoload": {
@@ -30,6 +35,12 @@
             "tests/Kernel.php"
         ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/haq87/model.git"
+        }
+    ],
     "require": {
         "php": "^8.1",
         "illuminate/console": "^10.0",
